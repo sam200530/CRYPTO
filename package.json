@@ -1,0 +1,33 @@
+{
+  "name": "crypto-volatility-watcher",
+  "version": "1.0.0",
+  "description": "AI-Powered Crypto Volatility Predictions with Machine Learning",
+  "main": "standalone.html",
+  "scripts": {
+    "build": "echo 'No build step required for static site'",
+    "start": "echo 'Static site - open standalone.html in browser'",
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": [
+    "crypto",
+    "volatility",
+    "machine-learning",
+    "predictions",
+    "bitcoin",
+    "ethereum",
+    "trading",
+    "ai"
+  ],
+  "author": "Crypto Volatility Watcher Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/crypto-volatility-watcher.git"
+  },
+  "homepage": "https://crypto-volatility-watcher.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
