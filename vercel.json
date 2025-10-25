@@ -7,14 +7,14 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/standalone.html"
+      "source": "/",
+      "destination": "/standalone.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/(.*)",
+      "destination": "/$1"
     }
   ],
   "headers": [
@@ -37,3 +37,5 @@
     }
   ]
 }
+
+
